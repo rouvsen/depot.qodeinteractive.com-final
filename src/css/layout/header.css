@@ -716,6 +716,13 @@ body:hover .slider-content {
 
 .slider-selectors > span {
     cursor: pointer;
+    color: #505050 !important;
+    font-size: 22px;
+}
+
+.selector-num {
+    font-size: 14px;
+    color: #505050;
 }
 
 
