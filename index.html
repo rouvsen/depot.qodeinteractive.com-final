@@ -3,10 +3,625 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!--! Boostrap Icons CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./src/css/main.css">
     <title>E-commerce Site</title>
 </head>
 <body>
-    
+
+    <!-- header start -->
+    <header>
+        <div class="header-row">
+            <div class="container">
+                <div class="header-wrapper">
+
+                    <div class="header-left">
+                        <ul class="header-left-menu-list">
+                            <li class="header-menu-list-item active">
+                                <a class="menu-list-item-link" href="#">
+                                    home
+                                </a>
+                                <div class="home-modal">
+                                    <ul class="home-modal-list">
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" id="home-modal-first-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Main Home
+                                            </a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Minimal Home</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Masonry Home</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Classic Home</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Passepartout Home</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Left Menu Home</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Boxed Home</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Full Screen Home</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Product Showcase</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Slider Showcase</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Simple Home</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Split Showcase</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Landing Page</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-menu-list-item">
+                                <a class="menu-list-item-link" href="#">
+                                    shop
+                                </a>
+                                <div class="home-modal shop-modal shop-modal-spec">
+                                    <ul class="home-modal-list">
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> <h4>Shop Types</h4>
+                                            </a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Left Sidebar</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> With Filter</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Masonry – Grid</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Masonry – Wide</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Shop Carousel</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Shop Boxed</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Single Category</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="home-modal-list">
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> <h4>Product Types</h4>
+                                            </a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Standard Product</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Grouped Product</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Variable Product</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Downloadable Product</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Virtual Product</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> External Product</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> New! Product</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> On Sale Product</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Out of stock Product</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="home-modal-list">
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> <h4>Featured</h4>
+                                            </a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> User Dashboard</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Order Tracking</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> My Account</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Cart</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Checkout</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Addresses</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Payment Methods</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="home-modal-list">
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> <h4>Layouts</h4>
+                                            </a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Two Columns Grid</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Three Columns Grid</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Four Columns Grid</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Four Columns Wide</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Five Columns Wide</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Six Columns Wide</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-menu-list-item">
+                                <a class="menu-list-item-link" href="#">
+                                    pages
+                                </a>
+                                <div class="home-modal pages-modal">
+                                    <ul class="home-modal-list">
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> About Us
+                                            </a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> What We Do</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Our Team</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Meet The Crew</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Team Member</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Our Services</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Pricing Plans</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Payment</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Testimonials</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Gift Cards</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Terms & Conditions</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Contact Us</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Leave Us A Note</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> FAQ</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Coming Soon</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-menu-list-item">
+                                <a class="menu-list-item-link" href="#">
+                                    elements
+                                </a>
+                                <div class="home-modal shop-modal elements-modal">
+                                    <ul class="home-modal-list">
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> <h4>Shop Shortcodes</h4>
+                                            </a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Product List</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Product List – Carousel</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Product List – Simple</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> On Sale Products</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Top Rated Products</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Best Selling Products</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Products by Attribute</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Single Category List</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Order Tracking</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="home-modal-list">
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> <h4>Classic</h4>
+                                            </a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Accordions & Toggles</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Tabs</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Buttons</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Call To Action</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Separators</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Contact Form</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Icon With Text</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Message Boxes</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Typography</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="home-modal-list">
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> <h4>Infographic</h4>
+                                            </a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Pricing Tables</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Progress Bar</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Process</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Google Map</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Counters</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Countdown</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Pie Chart</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Video Button</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Image Gallery</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="home-modal-list">
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> <h4>Presentation</h4>
+                                            </a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Depot Banner</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Portfolio List</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Blog List</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Item Showcase</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Clients</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Testimonials Slider</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Team List</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Team Slider</a>
+                                        </li>
+                                        <li class="home-modal-list-li">
+                                            <a class="home-modal-list-link" href="#">
+                                                <i class="bi bi-arrow-right"></i> Team Member</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="header-center">
+                        <a href="index.html" class="logo">
+                            <img src="./src/img/logo.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <div class="header-right">
+                        <ul class="header-right-links">
+                            <li class="header-right-link cart">
+                                <a href="#">
+                                    <span class="header-right-word">cart</span>
+                                    <span class="header-right-special-spans">
+                                        <span>(</span><span>$</span><span>0</span><span>)</span>
+                                    </span>
+                                </a>
+                                <div class="shopping-cart-dropdown">
+                                    <ul class="shopping-cart-list">
+                                        <li class="shopping-cart-list-item">
+                                            <a href="#">
+                                                <div class="shopping-cart-list-item-wrapper">
+                                                    <div class="cart-list-item-img-div">
+                                                        <img src="./src/img/product-ex.jpg" alt="prod">
+                                                    </div>
+                                                    <div class="header-right-special-spans cart-list-item-detail">
+                                                        <h5>BASKET WITH HANDLES</h5>
+                                                        <div class="spans-wrapper-cart-dropdown">
+                                                            <span>1 x</span>
+                                                            <span>&nbsp;$160</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="shopping-cart-list-item">
+                                            <a href="#">
+                                                <div class="shopping-cart-list-item-wrapper">
+                                                    <div class="cart-list-item-img-div">
+                                                        <img src="./src/img/product-ex.jpg" alt="prod">
+                                                    </div>
+                                                    <div class="header-right-special-spans cart-list-item-detail">
+                                                        <h5>BASKET WITH HANDLES</h5>
+                                                        <div class="spans-wrapper-cart-dropdown">
+                                                            <span>1 x</span>
+                                                            <span>&nbsp;$160</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="go-to-cart-details">
+                                        <div class="header-right-special-spans go-to-cart-total">
+                                            <span>TOTAL:</span>
+                                            <span>$160</span>
+                                        </div>
+                                        <div>
+                                            <a class="cart-detail-btn top" href="#">VIEW CART</a>
+                                        </div>
+                                        <div>
+                                            <a class="cart-detail-btn bottom" href="#">CHECKOUT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header-right-link">
+                                <a href="#">
+                                    <i class="bi bi-heart"></i>
+                                    <span class="header-right-special-spans">
+                                        <span>(</span><span>0</span><span>)</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="header-right-link">
+                                <a href="#" id="header-login-link">
+                                    <i class="bi bi-person"></i>
+                                    <span class="header-right-word">login</span>
+                                </a>
+                            </li>
+                            <li class="header-right-link">
+                                <a href="#">
+                                    <img class="header-menu-svg" src="./src/img/search.svg" alt="search">
+                                </a>
+                            </li>
+                            <li class="header-right-link">
+                                <h5 class="menu-responsive">menu</h5>
+                                <a href="#">
+                                    <img class="header-menu-svg" src="./src/img/menu.svg" alt="menu">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="login-section">
+        <div class="login-sec-wrapper">
+            <div class="login-headers">
+                <div class="login get-login active">
+                    <a href="#">LOGIN</a>
+                </div>
+                <div class="login get-register">
+                    <a href="#">REGISTER</a>
+                </div>
+            </div>
+            <div class="login-contents">
+                <div>
+                    <div>
+                        <input class="login-btn" type="text" placeholder="User Name">
+                    </div>
+                    <div>
+                        <input class="login-btn" type="password" placeholder="Password">
+                    </div>
+                    <div class="login-checkbox-wrapper">
+                        <input id="login-checkbox" type="checkbox">
+                        <label for="login-checkbox">
+                            <span id="login-checkbox-span">Remember me</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="login-lost-wrapper">
+                    <a href="#">
+                        <span id="login-lost-pass">Lost Your password?</span>
+                    </a>
+                </div>
+                <div>
+                    <input id="login-btn-submit" type="submit" value="LOGIN">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header end -->
+
+    <main style="height: 500vh;"></main>
+
+
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
