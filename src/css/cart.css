@@ -1,0 +1,336 @@
+
+.cart-page-top-image {
+    height: 327px;
+    background-image: url(../img/cart-page-top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-top-image-title {
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+.cart-progress {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+/* cart progress left start */
+
+.products-all-functions-table {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}
+.product-item-title a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #080808 !important;
+    text-decoration: none;
+    transition: color .2s ease-out;
+}
+
+.product-item-price span {
+    font-size: 14px !important;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    color: #929292;
+}
+.product-item-count span {
+    font-weight: 600;
+    font-size: 15px !important;
+    font-family: Montserrat,sans-serif;
+    line-height: 25px;
+    color: #929292;
+}
+
+.cart-left-backto-shopping-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 15px;
+}
+.cart-left-backto-shopping-wrapper i, a {
+    color: #929292;
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 1px;
+}
+
+.product-item-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+}
+.additional-process-section-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid #92929231;
+    border-bottom: 1px solid #92929231;
+}
+
+.additional-process-section-wrapper input {
+    font-family: 'Catamaran', sans-serif;
+    color: #929292;
+    border: none;
+    outline: 0;
+    font-weight: 100;
+    font-size: 13px;
+    background: transparent;
+}
+
+.additional-process-section-wrapper th {
+    padding-right: 30px;
+    background-color: #9292921f;
+}
+
+.product-item-wrapper .product-item-count-selector input {
+    border: none;
+    outline: 0;
+    width: 14px;
+    font-family: 'Catamaran', sans-serif;
+    color: #929292;
+}
+
+.product-item-count-selector .bi-caret {
+    color: #929292;
+    font-size: 12px;
+}
+
+.count-selector-word {
+    font-size: 13px;
+    color: #929292;
+    font-family: 'Catamaran', sans-serif;
+    padding-right: 15px;
+}
+
+.product-item-deleter i {
+    font-size: 18px;
+    color: #929292;
+    margin-right: -32px; 
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.additional-process-section-wrapper th a,
+.additional-process-section-wrapper td a {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Catamaran', sans-serif;
+    color: #080808;
+    cursor: pointer;
+    line-height: 54px;
+    height: 54px;
+}
+
+.cart-progress-left h3 {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    margin: 10px 0 50px;
+    letter-spacing: 2px;
+    color: #080808;
+    text-transform: uppercase;
+}
+
+.product-item-primary-infos {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.cart-progress-product-item-img-wrapper {
+    width: 95px;
+    height: 105px;
+    display: flex;
+}
+.cart-progress-product-item-img-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.cart-left-backto-shopping-wrapper {
+    margin-top: 30px;
+}
+
+/* cart progress left start */
+
+
+
+/* cart progress right start */
+
+.cart-progress-right {
+    padding: 37px 35px;
+    background-color: #FAFAFA;
+}
+.cart-progress-right .shipping-location {
+    margin: 10px 0;
+    text-align: right;
+    font-size: 14px;
+    color: #929292;
+}
+.cart-progress-shipping-address {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 1.3px;
+    font-family: 'Catamaran', sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    column-gap: 3px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #92929243;
+}
+
+.cart-progress-right .cart-progress-sub-total {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cart-progress-right .cart-progress-sub-total span{
+    font-size: 13px;
+    font-family: Montserrat,sans-serif;
+}
+
+.cart-progress-right h3{
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 3.7px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.cart-progress-right h5{
+    font-family: 'Catamaran', sans-serif;
+    text-align: left;
+    vertical-align: top;
+    padding-right: 30px;
+    border: 0;
+    font-size: 14px;
+    color: #080808;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.special-fonts-for-littles {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    color: #929292;
+}
+
+.cart-progress-shipping-selections {
+    display: flex;
+}
+.cart-progress-shipping-selections .shipping-labels-wrapper{
+    margin-left: 5px;
+}
+.cart-progress-shipping-selections .shipping-labels-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.cart-progress-shipping-selections > div > label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    color: #929292;
+}
+
+.cart-progress-total {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-progress-total span:nth-child(1){
+    font-family: 'Catamaran', sans-serif;
+    font-size: 14px;
+    color: #080808;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.cart-progress-total span:nth-child(2){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #080808;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.cart-progress-submit-btn .submit-btn {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    padding: 12px 50px;
+    border: 1px solid #00000095;
+    background-color: black;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.cart-progress-submit-btn .submit-btn:hover {
+    opacity: .7;
+}
+
+
+@media (max-width: 784px) {
+    .cart-progress-product-item-img-wrapper {
+        display: none;
+    }
+    .additional-process-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .additional-process-section-wrapper th:nth-child(1) {
+        margin-top: 10px;
+    }
+    .product-item-wrapper {
+        column-gap: 18px;
+    }
+}
+
+@media (max-width: 584px) {
+    .product-item-price {
+        display: none;
+    }
+}
+
+
