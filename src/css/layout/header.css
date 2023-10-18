@@ -130,7 +130,8 @@ header .header-menu-list-item #home-modal-first-link .bi-arrow-right {
 }
 
 header .home-modal-list-li {
-    display: flex;
+    display: flex !important;
+    min-width: 177px !important;
 }
 
 header .home-modal-list-li .home-modal-list-link,
@@ -142,8 +143,17 @@ header .home-modal-list-li:hover .home-modal-list-link {
     color: white;
 }
 
+header .home-modal-list-li:nth-child(1) .home-modal-list-link {
+    display: flex;
+}
+
+header .home-modal-list-li:nth-child(1):hover .home-modal-list-link > i {
+    display: flex !important;
+    margin-right: 3px;
+}
+
 header .home-modal-list-link:hover .bi-arrow-right {
-    display: inline-block;
+    display: inline-block !important;
 }
 
 header .header-menu-list-item:hover .home-modal {
