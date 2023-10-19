@@ -387,6 +387,129 @@ header .shopping-cart-dropdown {
     opacity: 1;
 }
 
+.item-look-span-onklicked {
+    visibility: hidden;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    background-color: #666666ce;
+}
+.span-onklicked-wrapper {
+    background-color: #fff;
+    padding: 15px 25px;
+    min-width: 300px;
+}
+
+/* style of item hover look */
+.span-onklicked-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hover-table {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.hover-tbody-sec > tr {
+    border: 1px solid #929292;
+    display: flex;
+    padding: 10px 0 !important;
+    padding-left: 30px !important;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+
+.hover-wishlist {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    color: #080808;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-family: 'Catamaran', sans-serif;
+}
+.hover-wishlist i {
+    display: flex;
+    font-size: 14px;
+}
+
+.onklicked-right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 45px 15px;
+}
+
+.litt {
+    font-size: 13px !important;
+    color: #929292;
+}
+
+.hover-add-to-cart {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.hover-input {
+    border: none;
+    outline: 0;
+    width: 14px;
+    color: #929292;
+}
+
+.hover-title {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: 'Catamaran',sans-serif;
+    text-transform: uppercase;
+}
+
+.hover-price {
+    line-height: 1;
+    color: #080808;
+    font-size: 24px;
+    font-family: Montserrat,sans-serif;
+    text-align: left;
+}
+
+.item-stars {
+    margin-top: 40px;
+    font-family: ElegantIcons;
+    font-size: 12px;
+    line-height: 1.1em;
+    letter-spacing: 1.3px;
+    color: #ebbc00;
+}
+
+.hover-desc {
+    max-width: 450px;
+    font-family: Catamaran,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #929292;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+
+
 .login-section {
     visibility: hidden;
     z-index: -1;
@@ -811,6 +934,47 @@ body:hover .slider-content {
 
 .product-item {
     text-align: center;
+    position: relative;
+}
+
+.product-item .item-info-hover {
+    display: none !important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.product-item:hover .item-info-hover {
+    display: flex !important;
+}
+
+.product-item .item-look-span span {
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #080808;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.product-item .item-look-heart i {
+    display: flex;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #080808;
+    padding: 8px 10px;
+    opacity: .6;
+    margin-top: 2px;
 }
 
 .product-item .prod-image {
@@ -959,6 +1123,10 @@ footer .footer-top > div > ul > li {
 
     .slider-section {
         max-width: 1100px;
+    }
+
+    .quick-look-i {
+        margin-bottom: 3px;
     }
 
   }

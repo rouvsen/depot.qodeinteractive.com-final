@@ -1,5 +1,19 @@
 
+const onclicked = document.querySelector(".item-info-hover");
+const onclickedSection = document.querySelector(".item-look-span-onklicked");
+const onclickedSectionWrapper = document.querySelector(".span-onklicked-wrapper");
 
+onclicked.addEventListener("click", () => {
+  onclickedSection.style.zIndex = "999";
+  onclickedSection.style.visibility = "visible";
+})
+
+onclickedSection.addEventListener("click", (e) => {
+      if(!onclickedSectionWrapper.contains(e.target)) {
+        onclickedSection.style.zIndex = "-1";
+        onclickedSection.style.visibility = "hidden";
+      }
+})
 
 
 
