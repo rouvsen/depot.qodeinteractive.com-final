@@ -1,0 +1,85 @@
+{
+    "products": [
+      {
+        "name": "Samsung Galaxy S21",
+        "price": 27,
+        "image": "../../src/public/products/h1-product-1-505x505.jpg",
+        "category": "lighting",
+        "description": "Samsung Galaxy S21 is a flagship smartphone with a 6.2-inch Dynamic AMOLED display, a 64 MP triple camera system, and a 4000 mAh battery.",
+        "sku": "SM-G991BZADEUE",
+        "color": "white",
+        "material": "chrome"
+      },
+      {
+        "name": "Apple MacBook Air",
+        "price": 7,
+        "image": "../../src/public/products/h1-product-2-505x505.jpg",
+        "category": "decoration",
+        "description": "Apple MacBook Air is a thin and light laptop with a 13.3-inch Retina display, an Apple M1 chip, and a Touch ID sensor.",
+        "sku": "MGN63LL/A",
+        "color": "rose",
+        "material": "concrete"
+      },
+      {
+        "name": "Sony PlayStation 5",
+        "price": 24,
+        "image": "../../src/public/products/h1-product-3-1-505x505.jpg",
+        "category": "decoration",
+        "description": "Sony PlayStation 5 is a powerful game console with an ultra-high speed SSD, a 4K UHD Blu-ray drive, and a DualSense wireless controller.",
+        "sku": "3005718",
+        "color": "orange",
+        "material": "glass"
+      },
+      {
+        "name": "Bose QuietComfort",
+        "price": 299,
+        "image": "../../src/public/products/h1-product-4-505x505.jpg",
+        "category": "decoration",
+        "description": "Bose QuietComfort 35 II is a wireless headphone with noise cancelling technology, a built-in Google Assistant, and a battery life of up to 20 hours.",
+        "sku": "789564-0010",
+        "color": "grey",
+        "material": "metal"
+      },
+      {
+        "name": "Kindle Paperwhite",
+        "price": 149,
+        "image": "../../src/public/products/h1-product-5-505x505.jpg",
+        "category": "decoration",
+        "description": "Kindle Paperwhite is an e-reader with a 6-inch glare-free display, a built-in adjustable light, and a waterproof design.",
+        "sku": "B07CXG6C9W",
+        "color": "gold",
+        "material": "steel"
+      },
+      {
+        "name": "Samsung Galaxy S24",
+        "price": 350,
+        "image": "../../src/public/products/h1-product-6-505x505.jpg",
+        "category": "home_decor",
+        "description": "Samsung Galaxy S24 is a flagship smartphone with a 6.2-inch Dynamic AMOLED display, a 64 MP triple camera system, and a 4000 mAh battery.",
+        "sku": "SM-G99441BZADEUE",
+        "color": "brown",
+        "material": "wood"
+      },
+      {
+        "name": "Apple MacBook Air2",
+        "price": 67,
+        "image": "../../src/public/products/h1-product-7-505x505.jpg",
+        "category": "vase",
+        "description": "Apple MacBook Air2 is a thin and light laptop with a 13.3-inch Retina display, an Apple M1 chip, and a Touch ID sensor.",
+        "sku": "MGN63LL/A2",
+        "color": "black",
+        "material": "chrome"
+      },
+      {
+        "name": "Sony PlayStation 6",
+        "price": 39,
+        "image": "../../src/public/products/h1-product-8-505x505.jpg",
+        "category": "home_decor",
+        "description": "Sony PlayStation 6 is a powerful game console with an ultra-high speed SSD, a 4K UHD Blu-ray drive, and a DualSense wireless controller.",
+        "sku": "3005718p",
+        "color": "beige",
+        "material": "chrome"
+      }
+    ]
+  }
+  
